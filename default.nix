@@ -9,6 +9,6 @@ stdenv.mkDerivation {
 
   #make install
   nativeBuildInputs = [ cmake ]; 
-  # buildInputs = [ hellolib ];
+  buildInputs = [ hellolib ];
   
 }
