@@ -29,7 +29,7 @@ install(TARGETS hellolib
 include(CMakePackageConfigHelpers)
 
 # Generate the package config file
-configure_package_config_file(${CMAKE_CURRENT_SOURCE_DIR}/cmake/hellolibConfig.cmake.in
+configure_package_config_file(${CMAKE_CURRENT_SOURCE_DIR}/hellolibConfig.cmake.in
   "${CMAKE_CURRENT_BINARY_DIR}/hellolibConfig.cmake"
   INSTALL_DESTINATION ${CMAKE_INSTALL_LIBDIR}/cmake/hellolib
 )
