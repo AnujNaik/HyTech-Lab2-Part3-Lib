@@ -19,9 +19,7 @@
 
         # derivation in other nix
         # pay attention to callPackage !
-        target = final.callPackage ./default.nix { 
-          inherit hellolib;
-        };
+        target = final.callPackage ./default.nix { };
 
         # derivation in same flake
         # target = 
