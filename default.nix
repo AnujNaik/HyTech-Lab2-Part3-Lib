@@ -5,7 +5,7 @@
 stdenv.mkDerivation {
   pname = "helloapp";
   version = "0.1.0";
-  src = ./helloapp;
+  src = ./.;
 
   #make install
   nativeBuildInputs = [ cmake ]; 
