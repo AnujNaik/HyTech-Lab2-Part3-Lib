@@ -4,7 +4,7 @@
 stdenv.mkDerivation rec {
   pname = "hellolib";
   version = "0.1.0";
-  src = ./hellolib;
+  src = ./.;
 
   #make install
   nativeBuildInputs = [ cmake ];  
