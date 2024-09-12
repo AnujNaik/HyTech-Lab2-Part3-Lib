@@ -1,5 +1,5 @@
 
-{ stdenv, cmake, hellolib }:
+{ stdenv, cmake }:
 
 #make Derivation
 stdenv.mkDerivation {
