@@ -15,7 +15,7 @@
 
       #target_overlay = final: prev: rec { 
       target_overlay = final: prev: rec { 
-        hellolib = final.callPackage ./hellolib.nix { };
+        # hellolib = final.callPackage ./hellolib.nix { };
 
         # derivation in other nix
         # pay attention to callPackage !
